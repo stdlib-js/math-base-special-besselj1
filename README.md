@@ -56,38 +56,32 @@ J_1 (x) = \frac{1}{2 \pi} \int_{-\pi}^\pi e^{i(\tau - x \sin(\tau))} \,d\tau
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-besselj1
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-j1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-besselj1@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var j1 = require( 'path/to/vendor/umd/math-base-special-besselj1/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-besselj1@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.j1;
-})();
-</script>
+var j1 = require( '@stdlib/math-base-special-besselj1' );
 ```
 
 #### j1( x )
@@ -121,14 +115,9 @@ v = j1( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-besselj1@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var j1 = require( '@stdlib/math-base-special-besselj1' );
 
 var x;
 var i;
@@ -137,11 +126,6 @@ for ( i = 0; i < 100; i++ ) {
     x = randu() * 10.0;
     console.log( 'j1(%d) = %d', x, j1( x ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -227,8 +211,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/math-base-special-besselj1/tree/deno
+[deno-readme]: https://github.com/stdlib-js/math-base-special-besselj1/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/math-base-special-besselj1/tree/umd
+[umd-readme]: https://github.com/stdlib-js/math-base-special-besselj1/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/math-base-special-besselj1/tree/esm
+[esm-readme]: https://github.com/stdlib-js/math-base-special-besselj1/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-besselj1/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-besselj1/main/LICENSE
@@ -237,11 +224,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0/tree/umd
+[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0
 
-[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0/tree/umd
+[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0
 
-[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1/tree/umd
+[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1
 
 <!-- </related-links> -->
 
