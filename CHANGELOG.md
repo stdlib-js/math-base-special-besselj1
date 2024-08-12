@@ -4,17 +4,30 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-11)
+## Unreleased (2024-08-12)
 
 <section class="features">
 
 ### Features
 
+-   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83) - fix function name and update docs [(#2777)](https://github.com/stdlib-js/stdlib/pull/2777)
 -   [`18bd1b5`](https://github.com/stdlib-js/stdlib/commit/18bd1b5ace1a7dbd9d26bb66c1a1f0aa91573416) - add C implementation for `math/base/special/besselj1`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83): update C API name
+
+    -   This commit changes the name of the C API from `stdlib_base_j1` to `stdlib_base_besselj1`. This ensures that the C function name more closely matches the global namespace name and helps protect against future naming collisions. To migrate, users should update their call signatures accordingly.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="commits">
 
@@ -22,6 +35,7 @@
 
 <details>
 
+-   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83) - **feat:** fix function name and update docs [(#2777)](https://github.com/stdlib-js/stdlib/pull/2777) _(by Gunj Joshi)_
 -   [`18bd1b5`](https://github.com/stdlib-js/stdlib/commit/18bd1b5ace1a7dbd9d26bb66c1a1f0aa91573416) - **feat:** add C implementation for `math/base/special/besselj1` _(by Gunj Joshi, Philipp Burckhardt)_
 
 </details>
@@ -124,8 +138,7 @@ No changes reported for this release.
 
 ### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
