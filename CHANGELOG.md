@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-12)
+## Unreleased (2024-08-17)
 
 <section class="features">
 
@@ -35,6 +35,7 @@
 
 <details>
 
+-   [`6a3b3d7`](https://github.com/stdlib-js/stdlib/commit/6a3b3d731ca697a62e3d58900e1b6cb06e7667dd) - **chore:** update directories meta data _(by Athan Reines)_
 -   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83) - **feat:** fix function name and update docs [(#2777)](https://github.com/stdlib-js/stdlib/pull/2777) _(by Gunj Joshi)_
 -   [`18bd1b5`](https://github.com/stdlib-js/stdlib/commit/18bd1b5ace1a7dbd9d26bb66c1a1f0aa91573416) - **feat:** add C implementation for `math/base/special/besselj1` _(by Gunj Joshi, Philipp Burckhardt)_
 
@@ -48,8 +49,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
 
