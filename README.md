@@ -63,7 +63,7 @@ J_1 (x) = \frac{1}{2 \pi} \int_{-\pi}^\pi e^{i(\tau - x \sin(\tau))} \,d\tau
 ## Usage
 
 ```javascript
-import j1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-besselj1@deno/mod.js';
+import j1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-besselj1@v0.3.0-deno/mod.js';
 ```
 
 #### j1( x )
@@ -100,7 +100,7 @@ v = j1( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import besselj1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-besselj1@deno/mod.js';
+import besselj1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-besselj1@v0.3.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
