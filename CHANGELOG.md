@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-07)
+## Unreleased (2026-11-10)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2b568bd`](https://github.com/stdlib-js/stdlib/commit/2b568bd727177f95feae9cd3f940084030631b50) - **build:** compile C++ Boost benchmarks with C++14 [(#16556)](https://github.com/stdlib-js/stdlib/pull/16556) _(by Mara Averick)_
 -   [`69d7fb1`](https://github.com/stdlib-js/stdlib/commit/69d7fb13201079dc3857405e8e2d75ce3bb4b48d) - **test:** migrate `math/base/special/besselj1` to ULP-based testing [(#13991)](https://github.com/stdlib-js/stdlib/pull/13991) _(by Philipp Burckhardt)_
 -   [`3adbe8a`](https://github.com/stdlib-js/stdlib/commit/3adbe8a17ba4a8ac59a6dbb66085ee84cb78d35d) - **docs:** propagate fixes to sibling packages [(#13133)](https://github.com/stdlib-js/stdlib/pull/13133) _(by Philipp Burckhardt)_
 -   [`9a4e514`](https://github.com/stdlib-js/stdlib/commit/9a4e5147a82a0b9db7105bc76fb0d616b7309fc8) - **style:** remove extra trailing newlines [(#13016)](https://github.com/stdlib-js/stdlib/pull/13016) _(by Philipp Burckhardt)_
@@ -27,9 +28,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Mara Averick
 -   Philipp Burckhardt
 
 </section>
